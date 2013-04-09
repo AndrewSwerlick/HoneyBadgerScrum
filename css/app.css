@@ -4,6 +4,9 @@ body {
         background: url('../Images/mochaGrunge.png');
         color: white;
       }
+      .muted {
+      	color: white;
+      }
 
       /* Custom container */
       .container {
