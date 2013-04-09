@@ -82,7 +82,8 @@
       }
     </style>
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
+    <link href="bootstrap/css/plugins/bootstrap-lightbox.min.css" rel="stylesheet" />
+    
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="bootstrap/js/html5shiv.js"></script>
@@ -119,23 +120,55 @@
       <div id="gallery">
         <ul>
             <li>
-                <img src="img/eatingsnake.jpg" />
-                <span>They devour all parts of their prey, including skin, hair, feathers, flesh and bones</span>
+                <a data-toggle="lightbox" href="#lightbox1"><img src="img/eatingsnake.jpg" /></a>
+                <div id="lightbox1" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-header'>
+		                <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
+	                </div>
+                    <div class="lightbox-content">
+                        <img src="img/eatingsnake.jpg" />
+                        <span class="lightbox-caption">They devour all parts of their prey, including skin, hair, feathers, flesh and bones</span>
+                    </div>
+                </div>
             </li>
              <li>
-                <img src="img/zuckbadger.jpg" />
-                <span>The honey badger is less well known as facebook's mascot </span>
+                 <a data-toggle="lightbox" href="#lightbox2"><img src="img/zuckbadger.jpg" /></a>                
+                 <div id="lightbox2" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-header'>
+		                <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
+	                </div>
+                    <div class="lightbox-content">
+                        <img src="img/zuckbadger.jpg" />
+                        <span class="lightbox-caption">The honey badger is less well known as facebook's mascot </span>
+                    </div>
+                </div>
             </li>
             <li>
-                <img src="img/scary.jpg" />
-                <span>You don't want to meet a honey badger alone in a dark alley. Or a light alley. Or ever</span>
+                <a data-toggle="lightbox" href="#lightbox3"><img src="img/scary.jpg" /></a>                 
+                <div id="lightbox3" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-header'>
+		                <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
+	                </div>
+                    <div class="lightbox-content">
+                        <img src="img/scary.jpg" />
+                        <span class="lightbox-caption">You don't want to meet a honey badger alone in a dark alley. Or a light alley. Or ever</span>
+                    </div>
+                </div>
             </li>
              <li>
-                <img src="img/snarling.jpg" />
-                <span>This is a happy honey badger. It might only eat your face</span>
+                <a data-toggle="lightbox" href="#lightbox4"><img src="img/snarling.jpg" /></a>
+                <div id="lightbox4" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-header'>
+		                <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
+	                </div>
+                    <div class="lightbox-content">
+                        <img src="img/snarling.jpg" />
+                        <span class="lightbox-caption">This is a happy honey badger. It might only eat your face</span>
+                    </div>
+                </div>
             </li>
         </ul>
-    </div>
+    </div>  
     <div id="submit">
         <a href="mailto:honeybadger@zoo.com">Submit your own pictures!!</a>
     </div>
@@ -150,18 +183,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bootstrap/js/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap-transition.js"></script>
-    <script src="bootstrap/js/bootstrap-alert.js"></script>
-    <script src="bootstrap/js/bootstrap-modal.js"></script>
-    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="bootstrap/js/bootstrap-tab.js"></script>
-    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="bootstrap/js/bootstrap-popover.js"></script>
-    <script src="bootstrap/js/bootstrap-button.js"></script>
-    <script src="bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/plugins/bootstrap-lightbox.min.js"></script>
+
 
   </body>
 </html>
