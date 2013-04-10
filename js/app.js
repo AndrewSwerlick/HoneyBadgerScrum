@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#nav-list').html(
-		"<li><a href='#'>Home</a></li>" +
+		"<li><a href='index.html'>Home</a></li>" +
 		"<li><a href='behavior.html'>Behavior</a></li>" +
 		"<li><a href='habitat.html'>Habitat</a></li>" +
 		"<li><a href='communication.html'>Communication</a></li>" +
