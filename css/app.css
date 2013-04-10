@@ -79,6 +79,8 @@ body {
 	  
     .navbar .nav > li > a {
       height: 40px;
+          font-size:16px;
+
     }
 	  
     li{
@@ -89,3 +91,4 @@ body {
 	  html.gallery li{
 		float:left;
 	  }
+
