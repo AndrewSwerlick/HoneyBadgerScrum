@@ -1,3 +1,7 @@
+* {
+    font-size:20px;
+}
+
 body {
         padding-top: 20px;
         padding-bottom: 60px;
@@ -27,11 +31,11 @@ body {
         line-height: 1;
       }
       .jumbotron .lead {
-        font-size: 24px;
+        font-size: 26px;
         line-height: 1.25;
       }
       .jumbotron .btn {
-        font-size: 21px;
+        font-size: 23px;
         padding: 14px 24px;
       }
 
