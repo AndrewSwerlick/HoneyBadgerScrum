@@ -9,6 +9,7 @@ $(document).ready(function() {
 		"<li><a href='classification.html'>Classification</a></li>" +
 		"<li><a href='mating.html'>Mating</a></li>" +
 		"<li><a href='diet.html'>Diet</a></li>" +
+		"<li><a href='biology.html'>Biology</a></li>" +
 		"<li><a href='gallery.html'>Image Gallery</a></li>"
 	);
 
